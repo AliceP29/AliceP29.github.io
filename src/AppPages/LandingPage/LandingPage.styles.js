@@ -55,3 +55,16 @@ export const DescriptionWrapper = styled.div`
   border-radius: 11px;
   text-align: center;
 `;
+
+export const ImageWrapper = styled.img`
+  max-width: 150px;
+  max-height: 150px;
+`;
+export const LineWrapper = styled.span`
+  display: flex;
+  align-items: center;
+  p {
+    margin-left: 15px;
+  }
+`;
+
